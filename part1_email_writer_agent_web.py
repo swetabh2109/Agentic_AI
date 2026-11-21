@@ -16,7 +16,7 @@ import os
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from part1_writer_agent import build_crew
+from part1_email_writer_agent import build_crew
 
 HOST = "127.0.0.1"  # local machine only; not reachable from other devices
 PORT = int(os.getenv("PORT", "8080"))
